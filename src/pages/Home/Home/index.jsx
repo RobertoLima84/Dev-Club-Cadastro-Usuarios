@@ -29,9 +29,7 @@ function Home() {
     name:inputName.current.value
 
    })
-
-   
-
+  
   }
 
   return (
