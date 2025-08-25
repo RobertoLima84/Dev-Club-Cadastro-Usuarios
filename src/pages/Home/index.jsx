@@ -25,7 +25,7 @@ function Home() {
 
    const data = await api.post('/usuarios', {
     email:inputEmail.current.value,
-    age:inputAge.current.value,
+    age:parseInt(inputAge.current.value),
     name:inputName.current.value
 
    })
